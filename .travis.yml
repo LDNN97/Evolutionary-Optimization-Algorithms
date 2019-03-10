@@ -1,10 +1,18 @@
 language: python
+
 python:
   - "3.6"
 
-## command to install dependencies
-#install:
+before_install:
+  - pip install codecov
+  - pip install pytest pytest-cov
+
+# command to install dependencies
+install: true
 
 # command to run tests
 script:
-  - pytest
+  - pytest --cov=./
+
+after_success:
+  - codecov
