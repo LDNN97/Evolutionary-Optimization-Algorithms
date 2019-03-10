@@ -8,6 +8,6 @@ from cmaes_maes import CMAESM
 from cmaes_large import CMAESL
 
 if __name__ == "__main__":
-    TaskProb = problems.Sphere50D()
-    Task = CMAESL(TaskProb, 1000)
+    TaskProb = problems.Sphere(50, -50, 50)
+    Task = DE(TaskProb, 1000)
     Task.run()

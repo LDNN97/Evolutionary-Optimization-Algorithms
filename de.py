@@ -33,16 +33,12 @@ class DE(Optimizer):
                 j = (j + 1) % self.f.D
 
             trial_value = self.f.evaluate(trial)
-            if trial_value <= self.fit[i]:
-                newpop[i] = trial
-                newfit[i] = trial_value
-                self.opti_f = min(self.opti_f, trial_value)
-                self.opti_x = trial
-            else:
-                newpop[i] = self.pop[i]
-                newfit[i] = self.fit[i]
-                self.opti_f = min(self.opti_f, self.fit[i])
-                self.opti_x = self.pop[i]
+            newpop[i] = trial if trial_value <= self.fit[i] else self.pop[i]
+            newfit[i] = trial_value if trial_value <= self.fit[i] else self.fit[i]
+
+            [self.opti_f, self.opti_x] = [newfit[i], newpop[i]] if newfit[i] <= self.opti_f \
+                else [self.opti_f, self.opti_x]
+
         self.pop = newpop
         self.fit = newfit
 
