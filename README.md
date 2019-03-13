@@ -22,18 +22,18 @@ ES for RL: [Evolution Strategies as A Scalable Alternative to Reinforcement Lear
 
 1. clone the repository
 
-2. `import EOA`
+2. `import eoa`
 
 3. select a problem already existed or define your only problem
 
 4. select an algorithm to find the optimum.
 
-You can look into `EOA.py` to find more information about the usage.
+You can look into `eoa.py` to find more information about the usage.
 
 ## Example
 
 ``` python
-TaskProb = problems.Sphere(50, -50, 50)
+TaskProb = Sphere(50, -50, 50)
 Task = DE(TaskProb, 1000)
 Task.run()
 ```
