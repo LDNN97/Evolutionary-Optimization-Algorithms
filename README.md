@@ -1,6 +1,6 @@
 # Evolutionary Optimization Algorithms
 
-[![Build Status](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms.svg?branch=master)](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms) [![codecov](https://codecov.io/gh/LDNN97/evolutionary-optimization-algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/LDNN97/evolutionary-optimization-algorithm) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/91d7ec72068b4c39b5daca093e5bf8ba)](https://www.codacy.com/app/LDNN97/Evolutionary-Optimization-Algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LDNN97/Evolutionary-Optimization-Algorithms&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms.svg?branch=master)](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms) [![codecov](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/91d7ec72068b4c39b5daca093e5bf8ba)](https://www.codacy.com/app/LDNN97/Evolutionary-Optimization-Algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LDNN97/Evolutionary-Optimization-Algorithms&amp;utm_campaign=Badge_Grade)
 
 Papers:
 
@@ -14,7 +14,7 @@ MA-ES: [Simplify your covariance matrix adaptation evolution strategy](https://i
 
 LM-CMA: [LM-CMA: An alternative to L-BFGS for large-scale black box optimization](https://www.mitpressjournals.org/doi/abs/10.1162/EVCO_a_00168)
 
-LM-MA: [Large Scale Black-box Optimizationby Limited-Memory Matrix Adaptation](https://ieeexplore.ieee.org/abstract/document/8410043/)
+LM-MA: [Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation](https://ieeexplore.ieee.org/abstract/document/8410043/)
 
 ES for RL: [Evolution Strategies as A Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864)
 
