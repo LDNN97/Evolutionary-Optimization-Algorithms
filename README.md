@@ -1,6 +1,6 @@
 # Evolutionary Optimization Algorithms
 
-[![Build Status](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms.svg?branch=master)](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms) [![codecov](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/91d7ec72068b4c39b5daca093e5bf8ba)](https://www.codacy.com/app/LDNN97/Evolutionary-Optimization-Algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LDNN97/Evolutionary-Optimization-Algorithms&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms.svg?branch=master)](https://travis-ci.com/LDNN97/Evolutionary-Optimization-Algorithms) [![codecov](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/LDNN97/Evolutionary-Optimization-Algorithms) 
 
 Papers:
 
