@@ -1,5 +1,5 @@
 import numpy as np
-from optimizer import *
+from .optimizer import *
 
 
 class DE(Optimizer):

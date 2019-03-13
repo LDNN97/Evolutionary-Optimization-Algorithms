@@ -1,13 +1,15 @@
-import problems
+from prob.problems import *
+from opti.de import DE
 
-from de import DE
-from cmaes import CMAES
-from cmaes_origin import CMAESO
-from cmaes_bipop import CMAESB
-from cmaes_maes import CMAESM
-from cmaes_large import CMAESL
+from opti.cmaes import CMAES
+from opti.cmaes_origin import CMAESO
+from opti.cmaes_maes import CMAESM
+from opti.cmaes_large import CMAESL
+
+# beta
+from opti.cmaes_bipop import CMAESB
 
 if __name__ == "__main__":
-    TaskProb = problems.Sphere(50, -50, 50)
+    TaskProb = Sphere(50, -50, 50)
     Task = DE(TaskProb, 1000)
     Task.run()
