@@ -22,7 +22,7 @@ class DE(Optimizer):
 
             trial = np.zeros(self.f.D)
             for k in range(self.f.D):
-                if (np.random.random() < cr) or (k == j):
+                if (np.random.random() < cr) or (k == self.f.D):
                     trial[j] = self.pop[ind[0]][j] + f * (self.pop[ind[1]][j] - self.pop[ind[2]][j])
                     # if trial[j] > 1:
                     #     trial[j] = self.pop[i][j] + np.random.random() * (1 - self.pop[i][j])
